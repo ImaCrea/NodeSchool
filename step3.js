@@ -1,0 +1,6 @@
+var fs = require('fs')
+var string = 	fs.readFileSync(process.argv[2]).toString()
+stringSplit = string.split("\n")
+//console.log(string)
+//console.log(stringSplit)
+console.log(stringSplit.length-1)
